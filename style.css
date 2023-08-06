@@ -1,0 +1,62 @@
+:root {
+    --primary-color: #253A6B;
+    --secondary-color: #CB5151;
+    --white: #FFFFFF;
+}
+
+.navbar-brand {
+    font-family: "rift", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.btn.btn-light:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+nav {
+    background-color: #CB5151;
+}
+
+button {
+    font-family: "rift", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p, .btn.btn-light, .btn.btn-danger, .nav-item, .modal-header, .education-bullets {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--primary-color);
+}
+
+.btn.btn-danger {
+    color: white;
+}
+
+.experience-bullets {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .9rem;
+    color: var(--primary-color);
+}
+
+h1 {
+    font-family: "rift", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--primary-color);
+}
